@@ -6,11 +6,28 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXFileReference section */
+		C2155F021430ADF4006D3CC0 /* HTTPLoader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HTTPLoader.h; sourceTree = "<group>"; };
+		C2155F031430ADF4006D3CC0 /* HTTPLoader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HTTPLoader.m; sourceTree = "<group>"; };
+		C2155F041430ADF4006D3CC0 /* HTTPLoaderDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HTTPLoaderDelegate.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
 /* Begin PBXGroup section */
 		C2155EF81430ADC9006D3CC0 = {
 			isa = PBXGroup;
 			children = (
+				C2155F011430ADDA006D3CC0 /* HTTP */,
 			);
+			sourceTree = "<group>";
+		};
+		C2155F011430ADDA006D3CC0 /* HTTP */ = {
+			isa = PBXGroup;
+			children = (
+				C2155F021430ADF4006D3CC0 /* HTTPLoader.h */,
+				C2155F031430ADF4006D3CC0 /* HTTPLoader.m */,
+				C2155F041430ADF4006D3CC0 /* HTTPLoaderDelegate.h */,
+			);
+			name = HTTP;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
