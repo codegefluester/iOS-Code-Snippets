@@ -31,9 +31,12 @@
 	[responseData setLength:0];
 }
 
+/**
+ We failed to load the requested ressource :/
+ **/
 - (void)connection:(NSURLConnection *)connection didFailWithError:(NSError *)error {
     [UIApplication sharedApplication].networkActivityIndicatorVisible = NO;
-    UIAlertView *errAl = [[UIAlertView alloc] initWithTitle:@"Fehler" message:@"Beim abrufen der Daten ist ein Fehler aufgetreten." delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil];
+    UIAlertView *errAl = [[UIAlertView alloc] initWithTitle:@"INSERT YOUR OWN ERROR TITLE" message:@"INSERT YOUR OWN ERROR MESSAGE" delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil];
     [errAl show];
     [errAl release];
 	NSLog(@"Error loading URL: %@", [error description]);
