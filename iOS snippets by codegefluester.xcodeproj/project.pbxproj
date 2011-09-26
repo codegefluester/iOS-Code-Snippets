@@ -8,12 +8,14 @@
 
 /* Begin PBXFileReference section */
 		C2155F051430AF11006D3CC0 /* HTTP */ = {isa = PBXFileReference; lastKnownFileType = folder; path = HTTP; sourceTree = "<group>"; };
+		C2155F0D1430B1DC006D3CC0 /* UIImageView */ = {isa = PBXFileReference; lastKnownFileType = folder; path = UIImageView; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
 		C2155EF81430ADC9006D3CC0 = {
 			isa = PBXGroup;
 			children = (
+				C2155F0D1430B1DC006D3CC0 /* UIImageView */,
 				C2155F051430AF11006D3CC0 /* HTTP */,
 			);
 			sourceTree = "<group>";
