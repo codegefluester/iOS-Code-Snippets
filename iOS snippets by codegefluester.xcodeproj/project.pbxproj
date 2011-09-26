@@ -8,14 +8,12 @@
 
 /* Begin PBXFileReference section */
 		C2155F051430AF11006D3CC0 /* HTTP */ = {isa = PBXFileReference; lastKnownFileType = folder; path = HTTP; sourceTree = "<group>"; };
-		C2155F061430B01C006D3CC0 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
 		C2155EF81430ADC9006D3CC0 = {
 			isa = PBXGroup;
 			children = (
-				C2155F061430B01C006D3CC0 /* .gitignore */,
 				C2155F051430AF11006D3CC0 /* HTTP */,
 			);
 			sourceTree = "<group>";
