@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXFileReference section */
+		11B8DDEF1449B8DB00DE2917 /* NSString */ = {isa = PBXFileReference; lastKnownFileType = folder; path = NSString; sourceTree = "<group>"; };
+		11B8DDF01449B90E00DE2917 /* NSString+NSStringAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "NSString+NSStringAdditions.h"; path = "NSString/NSString+NSStringAdditions.h"; sourceTree = "<group>"; };
+		11B8DDF11449B90E00DE2917 /* NSString+NSStringAdditions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "NSString+NSStringAdditions.m"; path = "NSString/NSString+NSStringAdditions.m"; sourceTree = "<group>"; };
 		C2155F051430AF11006D3CC0 /* HTTP */ = {isa = PBXFileReference; lastKnownFileType = folder; path = HTTP; sourceTree = "<group>"; };
 		C2B35C9D1430B376003C5228 /* UIImageView */ = {isa = PBXFileReference; lastKnownFileType = folder; path = UIImageView; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -15,6 +18,9 @@
 		C2155EF81430ADC9006D3CC0 = {
 			isa = PBXGroup;
 			children = (
+				11B8DDF01449B90E00DE2917 /* NSString+NSStringAdditions.h */,
+				11B8DDF11449B90E00DE2917 /* NSString+NSStringAdditions.m */,
+				11B8DDEF1449B8DB00DE2917 /* NSString */,
 				C2B35C9D1430B376003C5228 /* UIImageView */,
 				C2155F051430AF11006D3CC0 /* HTTP */,
 			);
@@ -26,6 +32,7 @@
 		C2155EFA1430ADC9006D3CC0 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastUpgradeCheck = 0420;
 				ORGANIZATIONNAME = "B2 Communications GmbH";
 			};
 			buildConfigurationList = C2155EFD1430ADC9006D3CC0 /* Build configuration list for PBXProject "iOS snippets by codegefluester" */;
