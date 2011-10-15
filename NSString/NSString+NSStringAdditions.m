@@ -17,8 +17,6 @@ static char base64EncodingTable[64] = {
     'w', 'x', 'y', 'z', '0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '+', '/'
 };
 
-@implementation NSString (NSStringAdditions)
-
 + (NSString *) base64StringFromData: (NSData *)data length: (int)length {
     unsigned long ixtext, lentext;
     long ctremaining;
